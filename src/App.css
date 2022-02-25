@@ -1,0 +1,23 @@
+li.active a::before {
+  content: "";
+  left: -30px;
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background: #308d46;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 #fff;
+}
+
+li.active a::after {
+  content: "";
+  right: -30px;
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background: #308d46;
+  border-radius: 50%;
+  box-shadow: -15px 15px 0 #fff;
+}

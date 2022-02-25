@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(lightblue, mediumaquamarine);
+  }
+  
+  html,
+  body,
+  #root,
+  .App {
+    height: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    background: white;
+    width: 200px;
+    padding: 10px;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    color: white;
+  }
+  
+  button:active {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
